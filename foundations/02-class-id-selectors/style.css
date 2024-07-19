@@ -1,0 +1,25 @@
+
+.oddNumbElemt,
+.thirdElemt {
+
+    font-family: Verdana,"DejaVu Sans", sans-serif;
+    background-color: #ffb6c1;
+}
+
+#secondElemt {
+
+    font-size: 36px;
+    color: #0000ff;
+}
+
+.thirdElemt {
+
+    font-size: 24px;
+}
+
+#fourthElemt {
+    background-color: #90ee90;
+    font-size: 24px;
+    /* note the 700 is the usual value for bold text */
+    font-weight: 700;
+}
