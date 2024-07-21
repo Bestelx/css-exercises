@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  justify-content: center;
 }
 
 .title {
@@ -12,6 +13,9 @@ img {
   font-weight: 900;
 }
 
+.text{
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -24,3 +28,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.header,
+.plants,
+.plantItems {
+
+  display:flex;
+}
+
+.header{
+  align-items: center;
+}
+
+.plantItems {
+  align-items: center;
+}
+
+.header,
+.plantItems {
+
+  flex-direction: column;
+
+}
+.plants{
+  gap: 10px;
+}
+
